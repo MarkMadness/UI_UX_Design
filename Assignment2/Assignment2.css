@@ -1,0 +1,43 @@
+﻿body {
+    background-color: #ffc5f1;
+    margin: auto;
+    color: #630030;
+}
+
+.navbarContainer{
+    background-color: #9602ff;
+    padding: 20px;
+    font-size: 24pt;
+}
+
+.contact {
+    background-color: #9602ff;
+    padding: 20px;
+    color: #210010;
+}
+
+.navbarContainer a {
+    padding: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #210010;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Tw Cen MT';
+    font-size: 16pt;
+}
+
+.picture, .video{
+    text-align: center;
+}
+
+.pictureText{
+    text-align: center;
+    padding: 20px;
+}
+
+.tab{
+    margin-left: 30px;
+}
