@@ -1,0 +1,67 @@
+﻿html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(Images/CoruscantBG.jpg);
+    background-attachment: fixed;
+}
+
+.textHeader {
+    font-size: 45pt;
+    background-color: rgba(50, 118, 179, .85);
+}
+
+.textFooter {
+    text-align: center;
+    color: #FFD694;
+    font-size: 45pt;
+}
+
+.textBody {
+    font-size: 30pt;
+}
+
+.textBody span {
+    background-color: rgba(50, 118, 179, .85);
+}
+
+.textBody, .textHeader {
+    text-align: center;
+    color: #FFD694;
+}
+
+.streetSound{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.image{
+    text-align: center;
+}
+
+.displayImages {
+    display: table;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.locationContainer {
+    float: left;
+    width: 40%;
+    margin: 50px;
+    padding: 15px;
+    background-color: rgba(50, 118, 179, .85);
+}
+
+.apartmentImage {
+    border: 15px solid rgba(50, 118, 179, .85);
+}
+
+footer {
+    padding: 15px;
+    margin: 0;
+    background-color: rgba(50, 118, 179, .85);
+}

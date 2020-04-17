@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Assignment9.css" />
+</head>
+<body>
+    <p class="textHeader" style="padding:50px;margin-top:0">Welcome to Coruscant, newcomer!</p>
+    <section>
+        <!--Welcome to Coruscant-->
+        <div>
+            <p class="textBody"><span>Here we have everything you could think of doing and having on our city world.</span></p>
+        </div>
+    </section>
+
+    <section>
+        <!--Places to visit, homes to buy etc.-->
+        <div>
+            <div>
+                <p class="textHeader">Places to Visit!</p>
+                <p class="textBody"><span>Once you land at the spaceport, you have the option to travel anywhere you'd like. Here are a couple of recommendations close to the spaceport.</span></p>
+            </div>
+            <div class="displayImages">
+                <div class="locationContainer">
+                    <div class="image">
+                        <img src="Images/building1.jpg" alt="building1" />
+                    </div>
+                </div>
+                <div class="locationContainer">
+                    <div class="image">
+                        <img src="Images/building2.jpg" alt="building2" />
+                    </div>
+                </div>
+                <div class="locationContainer">
+                    <div class="image">
+                        <img src="Images/Podracing.jpg" alt="podracing" />
+                    </div>
+                </div>
+                <div class="locationContainer">
+                    <div class="image">
+                        <img src="Images/streets.jpg" alt="streets" />
+                    </div>
+                </div>
+                <p class="textBody"><span>Enjoy Coruscant's </span><span class="type"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--housing and audio for street sound-->
+        <div>
+            <p class="textHeader">Looking to stay?</p>
+            <p class="textBody">
+                <span>
+                    If you are planning to become one of the billions of people who have made Coruscant their home, you have before you numerous options for apartments,
+                    condos, homes, and palaces.
+                </span>
+            </p>
+            <div class="image">
+                <!--image for housing-->
+                <img src="Images/Apartment2.jpg" alt="Apartment2" style="width:50%;height:50%" class="apartmentImage" />
+
+            </div>
+            <div>
+                <p class="textBody"><span>Just take a listen to the ambience of Coruscant's streets</span></p>
+                <!--Audio link here-->
+                <div class="streetSound">
+                    <audio controls>
+                        <source src="CoruscantTrafficSound.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="textFooter">Mark Roenfeldt</p>
+    </footer>
+
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ["Podraces!","Restaurants!","Parks!","Temples!","Libraries!","Theaters!","and More!"],
+            backSpeed: 40,
+            typeSpeed: 40,
+            loop: true
+        });
+
+    </script>
+</body>
+</html>
