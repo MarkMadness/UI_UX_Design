@@ -13,5 +13,5 @@ the homepage.
 ### Wireframe
 ![Image of Wireframe3.jpg](https://github.com/MarkMadness/UI_UX_Design/blob/master/UI_UX_LiveProject/Wireframe%203.jpg)
 
-###Mockup
+### Mockup
 ![Image of mockup1.jpg](https://github.com/MarkMadness/UI_UX_Design/blob/master/UI_UX_LiveProject/mockup1.jpg)
